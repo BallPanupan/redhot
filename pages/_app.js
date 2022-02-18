@@ -1,8 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../styles/components.scss'
+import '../styles/index.scss'
 
 function MyApp({ Component, pageProps }) {
-    return <div className="xxxxx"><Component {...pageProps} /></div>
+    return (
+        <Component {...pageProps} />
+    )
 }
 
 export default MyApp

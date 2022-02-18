@@ -1,8 +1,15 @@
+import { Container} from "react-bootstrap";
+import NavbarMenu from "../components/NavbarMenu";
+
 function About() {
   return (
-    <div>
-      <h1>About. </h1>
-    </div>
+    <>
+      <NavbarMenu/>
+
+      <Container>
+        <h1>About</h1>
+      </Container>
+    </>
   );
 }
 
