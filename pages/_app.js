@@ -1,9 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/index.scss'
 
+import Layout from '../components/layout'
+
 function MyApp({ Component, pageProps }) {
     return (
-        <Component {...pageProps} />
+        <Layout><Component {...pageProps} /></Layout>
     )
 }
 
