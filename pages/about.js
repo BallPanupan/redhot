@@ -4,7 +4,6 @@ import NavbarMenu from "../components/NavbarMenu";
 function About() {
   return (
     <>
-      <NavbarMenu/>
 
       <Container>
         <h1>About</h1>
