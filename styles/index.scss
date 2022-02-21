@@ -10,3 +10,25 @@
         align-self: center;
     }
 }
+
+.main-content {
+    display: flex;
+
+    .left {
+        width: 50%;
+    }
+
+    .right {
+        width: 50%;
+    }
+
+    @media screen and (max-width: 768px) {
+        display: unset;
+        .left {
+            width: 100%;
+        }
+        .right {
+            width: 100%;
+        }
+    }
+}
