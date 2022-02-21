@@ -4,7 +4,6 @@ import NavbarMenu from "../components/NavbarMenu";
 export default function Home() {
   return (
     <>
-      <NavbarMenu/>
 
       <Container>
         <div className="content-header">
