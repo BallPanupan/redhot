@@ -69,21 +69,27 @@ span {
     margin-top: 20px;
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 15px;
+    flex-wrap: wrap;
 
     .card-title {
         font-weight: bold;
     }
+    .card-text {
+        max-height: 250px;
+        overflow: hidden;
+        text-overflow: ellipsis; 
+    }
 }
 
 .card {
-    max-width: 300px;
+    max-width: 350px;
 }
 
 
 .black-x {
     width: 100%;
-    height: 240px;
+    height: 200px;
     background-color: black;
 }
 
