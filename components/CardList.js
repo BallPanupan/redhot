@@ -1,8 +1,17 @@
-function CardList() {
+import { Card } from "react-bootstrap";
+
+let car = {type:"Fiat", model:"500", color:"white"};
+
+function CardList(props) {
+    let content = props.content;
     return (
-        <div className="card-content">
-            Card
-        </div>
+    <Card>
+        <div className="black-x"></div>
+        <Card.Body>
+        <Card.Title>{ content.title }</Card.Title>
+        <Card.Text>{ content.content }</Card.Text>
+        </Card.Body>
+    </Card>
     );
   }
   

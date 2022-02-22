@@ -15,11 +15,16 @@ span {
         font-size: 5rem;
         line-height: 75px;
         font-weight: bold;
+
+        @media screen and (max-width: 768px) {
+            font-size: 4rem;
+        }
     }
 }
 
 .content-body {
     margin-top: 15px;
+    line-break: anywhere;
 }
 
 .navbar {
@@ -42,7 +47,7 @@ span {
         width: 60%;
         
         .vdo {
-            background-color: black;
+            background-color: #bbbbbb;
             height: 420px;
         }
     }
@@ -56,4 +61,32 @@ span {
             width: 100%;
         }
     }
+}
+
+.card-content {
+    width: 100%;
+    min-height: 400px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+    .card-title {
+        font-weight: bold;
+    }
+}
+
+.card {
+    max-width: 300px;
+}
+
+
+.black-x {
+    width: 100%;
+    height: 240px;
+    background-color: black;
+}
+
+.card-group {
+
 }
