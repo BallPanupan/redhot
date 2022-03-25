@@ -4,7 +4,7 @@ import Link from "next/link";
 function NavbarMenu() {
     return (
         <Navbar bg="back" expand="lg">
-            <Container>
+            <Container className="main-nav">
                 <Link href='/'>
                     <Navbar.Brand href="#"><h2>Red Hot</h2></Navbar.Brand>
                 </Link>
@@ -17,11 +17,11 @@ function NavbarMenu() {
                 <Link href='/about'>
                     <NavDropdown.Item href="#action/3.1">About</NavDropdown.Item>
                 </Link>
-                <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+                <NavDropdown title="Dropdownxx" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                <NavDropdown.Divider />
+                <NavDropdown.Divider className="line-divider"/>
                 <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                 </NavDropdown>
                 </Nav>
