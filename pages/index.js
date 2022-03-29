@@ -32,7 +32,7 @@ export default function Home() {
         <title>Phuket Red Hot</title>
       </Head>
         
-      <Container>
+      <Container className="b-yellow">
 
         <MainContent/>
 
