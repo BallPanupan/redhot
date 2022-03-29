@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react'
 import NavbarMenu from './NavbarMenu'
+import Footer from './footer'
 
 class Layout extends PureComponent {
   render () {
@@ -7,6 +8,7 @@ class Layout extends PureComponent {
       <div className='layout'>
         <NavbarMenu/>
         { this.props.children }
+        <Footer/>
       </div>
     )
   }

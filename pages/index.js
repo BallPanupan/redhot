@@ -35,16 +35,18 @@ export default function Home() {
       <Container className="b-yellow">
 
         <MainContent/>
-
-        <div className="card-content">
-        {
-          
-          totlaCard.map(data => {
-            return (
-              <CardList content={data}/>
-            )
-          })
-        }
+        
+        <div className="card-container">
+          <h1>Available</h1>
+          <div className="card-content">
+            {
+              totlaCard.map(data => {
+                return (
+                  <CardList content={data}/>
+                )
+              })
+            }
+          </div>
         </div>
 
       </Container>

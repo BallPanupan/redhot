@@ -2,8 +2,12 @@
 body {
     font-family: 'Cutive Mono', monospace;
     color: rgb(255, 255, 255);
-    background-color: black;
+    background-color: #000000d9;
     font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white !important;
 }
 
 .b-yellow {
@@ -80,10 +84,15 @@ span {
     }
 }
 
+.card-container {
+    text-align: center;
+    margin: 20px;
+}
+
 .card-content {
     width: 100%;
     min-height: 400px;
-    margin-top: 20px;
+    margin: 20px;
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -133,4 +142,14 @@ span {
 
 .main-nav .line-divider {
     border-top: 1px solid rgb(255 255 255);
+}
+
+
+// for footer
+
+.footer {
+    padding: 0px;
+    background-color: #272D34;
+    height: 180px;
+    margin-top: 50px;
 }

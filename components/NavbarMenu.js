@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function NavbarMenu() {
     return (
-        <Navbar bg="back" expand="lg">
+        <Navbar bg="black" expand="lg">
             <Container className="main-nav">
                 <Link href='/'>
                     <Navbar.Brand href="#"><h2>Red Hot</h2></Navbar.Brand>
