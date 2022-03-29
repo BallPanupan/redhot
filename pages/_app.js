@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/index.scss'
+import '../components/buttons/BtnWarning/BtnWarning.scss'
 
 import Layout from '../components/layout'
 

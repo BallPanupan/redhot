@@ -1,6 +1,7 @@
 import { Container} from "react-bootstrap";
 import MainContent from "../components/MainContent";
 import CardList from "../components/CardList";
+import BtnWarning from "../components/buttons/BtnWarning/BtnWarning";
 
 import Head from 'next/head'
 
@@ -30,7 +31,7 @@ export default function Home() {
     <>
       <Head>
         <title>Phuket Red Hot</title>
-      </Head>
+      </Head> 
         
       <Container className="b-yellow">
 
@@ -47,6 +48,10 @@ export default function Home() {
               })
             }
           </div>
+        </div>
+
+        <div className="align-center">
+          <BtnWarning text={'See All'}/>
         </div>
 
       </Container>
